@@ -1,0 +1,42 @@
+display {
+	width  800
+	height 480
+	x 180
+	y 104
+}
+
+background {
+	image background.png
+	x 0
+	y 0
+}
+
+button {
+
+	power {
+		image power.png
+		x 252
+		y 4
+	}
+
+	volume-up {
+		image volume_up.png
+		x 169
+		y 4
+	}
+
+	volume-down {
+		image volume_down.png
+		x 107
+		y 4
+	}
+}
+
+network {
+    speed  full
+    delay  none
+}
+
+keyboard {
+    charmap qwerty2
+}
